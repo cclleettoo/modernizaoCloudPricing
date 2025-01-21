@@ -1,0 +1,63 @@
+{
+    "Domain": "pricing",
+    "SubDomain": "data-engineering",
+    "Zone": "sot",
+    "Dataset": "politica",
+    "Name": "tbl_pricing_de_politica_cobranca_dmp_log_identificacao",
+    "SkipHeaderRows": "1",
+    "Frequency": "daily",
+    "DataControl": "dt_ref",
+    "PartitionColumn": "dt_ref",
+    "WriteMode": "overwrite-append",
+    "Description": "Tabela de identificacao do log de decisao da politica de preços.",
+    "Columns": [
+        {
+            "id": 1,
+            "Name": "transacao",
+            "Datatype": "string",
+            "Description": "transacao",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 2,
+            "Name": "pessoa",
+            "Datatype": "string",
+            "Description": "pessoa",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 3,
+            "Name": "tipopessoa",
+            "Datatype": "string",
+            "Description": "pessoa",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 4,
+            "Name": "datahoraexecucao",
+            "Datatype": "datetime",
+            "Description": "datahoraexecucao",
+            "PrimaryKey": 0,
+            "Pattern": "yyyy-MM-dd HH:mm:ss"
+        },
+        {
+            "id": 5,
+            "Name": "processo",
+            "Datatype": "string",
+            "Description": "processo",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 6,
+            "Name": "dt_ref",
+            "Datatype": "date",
+            "Description": "dt_ref",
+            "PrimaryKey": 0,
+            "Pattern": "yyyy-MM-dd"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "Domain": "pricing",
+    "SubDomain": "data-engineering",
+    "Module": "spec",
+    "TableType": "",
+    "Dataset": "engajamento",
+    "Service": "sparksql",
+    "TableName": "tbl_pricing_de_engajamento_base_potencial_mv",
+    "ClosingDay": "",
+    "GlueTier":"tier6",
+    "CronExecutionTime":"0 4 * * *",
+    "SparkSql": [
+        {
+            "Database": "db_corp_geracaoegestaodeinsights_dadosempresas_spec_01",
+            "Table": "tbl_bupj_de_cadastro_super_cadastro",
+            "TempViewName": "tbl_bupj_de_cadastro_super_cadastro",
+            "PushDownPredicatedName": "year/month/day",
+            "PushDownPredicatedDateFormat": "",
+            "PushDownPredicatedFilter": "1",
+            "PushDownPredicatedExpression": "",
+            "PushDownPredicatedCompressionType": "snappy",
+            "PushDownPredicatedDelimiter": ""
+        },
+        {
+            "Database": "db_corp_visaodorelacionamentobancario_bureaucadastral_spec_01",
+            "Table": "tbnb3018_melh_quad_scto",
+            "TempViewName": "tbnb3018_melh_quad_scto",
+            "PushDownPredicatedName": "",
+            "PushDownPredicatedDateFormat": "",
+            "PushDownPredicatedFilter": "",
+            "PushDownPredicatedExpression": "",
+            "PushDownPredicatedCompressionType": "snappy",
+            "PushDownPredicatedDelimiter": ""
+        },
+        {
+            "Database": "db_local_geracaoegestaodeinsights_plataformadadospricing_stage_01",
+            "Table": "tbl_pricing_de_engajamento_publico_minhas_vantagens",
+            "TempViewName": "tbl_pricing_de_engajamento_publico_minhas_vantagens",
+            "PushDownPredicatedName": "year/month/day",
+            "PushDownPredicatedDateFormat": "",
+            "PushDownPredicatedFilter": "1",
+            "PushDownPredicatedExpression": "",
+            "PushDownPredicatedCompressionType": "snappy",
+            "PushDownPredicatedDelimiter": ""
+        },
+        {
+            "Database": "db_local_geracaoegestaodeinsights_plataformadadospricing_stage_01",
+            "Table": "tbl_pricing_de_cadastro_base_producao",
+            "TempViewName": "tbl_pricing_de_cadastro_base_producao",
+            "PushDownPredicatedName": "year/month/day",
+            "PushDownPredicatedDateFormat": "",
+            "PushDownPredicatedFilter": "1",
+            "PushDownPredicatedExpression": "",
+            "PushDownPredicatedCompressionType": "snappy",
+            "PushDownPredicatedDelimiter": ""
+        }
+    ],
+    "Dependencies": [
+
+    ],
+    "QualityAlert":[
+        {
+            "Stop":"0",
+            "Rules": [
+                "Rules = [",
+                    "RowCount between 50000 and 250000, ",
+                    "Completeness 'agencia' = 1, ",
+                    "Completeness 'conta' = 1, ",
+                    "ColumnDataType 'anomesdia' = 'DATE',",
+                    "IsPrimaryKey 'agencia' 'conta'",
+                "]"
+            ]
+        }
+    ],
+    "SAFNotification": [
+        {
+            "TopicName": "saf-notification-pricing",
+            "ListStatusNotification": ["SUCCEEDED","FAILED","QUALITYALERT","QUALITYALERTSTOP"]
+        }
+    ]
+}
