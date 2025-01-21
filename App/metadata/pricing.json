@@ -1,0 +1,215 @@
+{
+    "Domain": "pricing",
+    "SubDomain": "data-engineering",
+    "Zone": "spec",
+    "Dataset": "engajamento",
+    "Name": "tbl_pricing_de_engajamento_base_potencial_mv_prep",
+    "SkipHeaderRows": "1",
+    "Frequency": "month",
+    "DataControl": "anomesdia",
+    "PartitionColumn": "anomesdia",
+    "WriteMode": "overwrite",
+    "Description": "Público Minhas Vantagens",
+    "Columns": [
+        {
+            "id": 1,
+            "Name": "cnpjbas",
+            "Datatype": "string",
+            "Description": "cnpjbas",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 2,
+            "Name": "qtd_contas",
+            "Datatype": "string",
+            "Description": "qtd_contas",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 3,
+            "Name": "num_agencia_pj",
+            "Datatype": "string",
+            "Description": "num_agencia_pj",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 4,
+            "Name": "num_conta_pj",
+            "Datatype": "string",
+            "Description": "num_conta_pj",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 5,
+            "Name": "num_conta_dac",
+            "Datatype": "string",
+            "Description": "num_conta_dac",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 6,
+            "Name": "agencia_conta_pj",
+            "Datatype": "string",
+            "Description": "agencia_conta_pj",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 7,
+            "Name": "qtd_socios_ip",
+            "Datatype": "string",
+            "Description": "qtd_socios_ip",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 8,
+            "Name": "cod_tipo_pessoa",
+            "Datatype": "string",
+            "Description": "cod_tipo_pessoa",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 9,
+            "Name": "des_negocio",
+            "Datatype": "string",
+            "Description": "des_negocio",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 10,
+            "Name": "status_conta_pj",
+            "Datatype": "string",
+            "Description": "status_conta_pj",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 11,
+            "Name": "flag_conta_ativa",
+            "Datatype": "string",
+            "Description": "flag_conta_ativa",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 12,
+            "Name": "segmento_pj",
+            "Datatype": "string",
+            "Description": "segmento_pj",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "cpf",
+            "Datatype": "string",
+            "Description": "cpf",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "nome_socio",
+            "Datatype": "string",
+            "Description": "nome_socio",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "pct_socio",
+            "Datatype": "string",
+            "Description": "pct_socio",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "des_crgo_func_scio",
+            "Datatype": "string",
+            "Description": "des_crgo_func_scio",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "num_agencia_pf",
+            "Datatype": "string",
+            "Description": "num_agencia_pf",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "num_conta_pf",
+            "Datatype": "string",
+            "Description": "num_conta_pf",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "agencia_conta_pf",
+            "Datatype": "string",
+            "Description": "agencia_conta_pf",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "flag_conta_pf",
+            "Datatype": "string",
+            "Description": "flag_conta_pf",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "nivel_ip_atual",
+            "Datatype": "string",
+            "Description": "nivel_ip_atual",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "pontuacao_ip_atual",
+            "Datatype": "string",
+            "Description": "pontuacao_ip_atual",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "flag_optin",
+            "Datatype": "string",
+            "Description": "flag_optin",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "elegibilidade_potencial",
+            "Datatype": "string",
+            "Description": "elegibilidade_potencial",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+{
+            "id": 12,
+            "Name": "anomesdia",
+            "Datatype": "date",
+            "Description": "anomesdia",
+            "PrimaryKey": 0,
+            "Pattern": "yyyy-MM-dd"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "ParamsAccount": {
+      "TechTeamEmail": "EngenhariaeGovernancaDadosV360@correio.itau.com.br",
+      "OwnerTeamEmail": "EngenhariaeGovernancaDadosV360@correio.itau.com.br"
+  },
+  "ParamsSASConnnection": {
+    "SasUserUm": "jfasjmw",
+    "SasPassUm": "{SAS002}3CD4EA1E46167FC64FEF2E93",
+    "SasUserDois": "michame",
+    "SasPassDois": "{SAS002}A5A4B02508B571AC53600529"
+  },
+  "ParamsRDSLegacy": {
+    "RDSInstance": "",
+    "RDSDatabaseName": "",
+    "RDSEngine": ""
+  },
+  "ParamsHiveConnnection": {
+      "HiveUser": "",
+      "HiveDataHub": "",
+      "HiveDatalab": "",
+      "HivePass": "",
+      "HiveKeyHash":""
+  },
+  "ParamsDomain":{
+      "Domain": "pricing",
+      "SubDomainFull": "data-engineering",
+      "SubDomainSummary": "de"
+  },
+  "ParamsDatasetNonRecurring":["carga_fria"],
+  "ParamsDataset":
+    {
+        "governance":"governance",
+        "logs":"logs",
+        "orchestration":"orchestration",
+        "quality":"quality",
+        "cadastro":"cadastro",
+        "carga_fria":"carga_fria",
+        "contratos":"contratos",
+        "faturamento":"faturamento",
+        "produtos":"produtos",
+        "servico":"servico",
+        "tecnologia":"tecnologia",
+        "transitorio":"transitorio",
+        "operacional":"operacional",
+        "pagamentos":"pagamentos",
+        "conquista":"conquista",
+        "financas":"financas",
+        "cambio":"cambio",
+        "pessoas":"pessoas",
+        "cobranca":"cobranca",
+        "ferramentas":"ferramentas",
+        "canais":"canais",
+        "atraso":"atraso",
+        "fluxo":"fluxo",
+        "listas":"listas",
+        "engajamento":"engajamento",
+        "riscos":"riscos",
+        "cash":"cash",
+        "politica":"politica"
+    }
+}

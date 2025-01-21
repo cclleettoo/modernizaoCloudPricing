@@ -1,0 +1,455 @@
+{
+    "Domain": "pricing",
+    "SubDomain": "data-engineering",
+    "Zone": "spec",
+    "Dataset": "engajamento",
+    "Name": "tbl_pricing_de_engajamento_publico_minhas_vantagens",
+    "SkipHeaderRows": "1",
+    "Frequency": "month",
+    "DataControl": "anomes",
+    "PartitionColumn": "anomes",
+    "WriteMode": "overwrite-append",
+    "Description": "Público Minhas Vantagens",
+    "Columns": [
+        {
+            "Id": 1,
+            "Name": "cpf_9",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 2,
+            "Name": "agencia",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 3,
+            "Name": "num_plat",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 4,
+            "Name": "reg",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 5,
+            "Name": "cart_plat",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 6,
+            "Name": "modelo",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 7,
+            "Name": "gra",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 8,
+            "Name": "conta",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 9,
+            "Name": "dac10",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 10,
+            "Name": "cpfcnpj",
+            "Datatype": "bigint",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 11,
+            "Name": "segmento",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 12,
+            "Name": "flag_conta",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 13,
+            "Name": "titularidade",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 14,
+            "Name": "nivel_ip_antes",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 15,
+            "Name": "nivel_ip_atual",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 16,
+            "Name": "pontuacao_ip_antes",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 17,
+            "Name": "pontuacao_ip_atual",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 18,
+            "Name": "status_nivel",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 19,
+            "Name": "status_pont",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 20,
+            "Name": "status_sal",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 21,
+            "Name": "status_invest",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 22,
+            "Name": "status_of",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 23,
+            "Name": "status_veic",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 24,
+            "Name": "status_pix",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 25,
+            "Name": "status_imob",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 26,
+            "Name": "status_cred",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 27,
+            "Name": "status_cartao",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 28,
+            "Name": "status_da",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 29,
+            "Name": "status_vida",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 30,
+            "Name": "status_resid",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 31,
+            "Name": "status_conta_pj",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 32,
+            "Name": "anomes_carteira_num",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 33,
+            "Name": "nivel_optin",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 34,
+            "Name": "pontuacao_optin",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 35,
+            "Name": "anomes_optin_num",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 36,
+            "Name": "anomesdia_optin_num",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 37,
+            "Name": "anomes",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": "yyyyMM"
+        },
+        {
+            "Id": 38,
+            "Name": "salario_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 39,
+            "Name": "of_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 40,
+            "Name": "veic_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 41,
+            "Name": "pix_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 42,
+            "Name": "imob_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 43,
+            "Name": "cred_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 44,
+            "Name": "invest_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 45,
+            "Name": "cartao_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 46,
+            "Name": "da_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 47,
+            "Name": "vida_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 48,
+            "Name": "resid_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 49,
+            "Name": "conta_pj_p_atual",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 50,
+            "Name": "engajamento",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 51,
+            "Name": "anomes_data_optin",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 52,
+            "Name": "anomesdia_data_optin",
+            "Datatype": "int",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 53,
+            "Name": "marca_cli",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 54,
+            "Name": "gr_seg_dig",
+            "Datatype": "string",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "Id": 55,
+            "Name": "data_carga_sas",
+            "Datatype": "date",
+            "Description": "",
+            "PrimaryKey": 0,
+            "Pattern": "yyyy-MM-dd"
+        }
+    ]
+}

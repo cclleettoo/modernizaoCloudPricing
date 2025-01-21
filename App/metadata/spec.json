@@ -1,0 +1,111 @@
+{
+    "Domain": "pricing",
+    "SubDomain": "data-engineering",
+    "Zone": "spec",
+    "Dataset": "engajamento",
+    "Name": "tbl_pricing_de_engajamento_publico_minhas_vantagens",
+    "SkipHeaderRows": "1",
+    "Frequency": "month",
+    "DataControl": "anomesdia",
+    "PartitionColumn": "anomesdia",
+    "WriteMode": "overwrite",
+    "Description": "Público Minhas Vantagens",
+    "Columns": [
+        {
+            "id": 1,
+            "Name": "ir",
+            "Datatype": "string",
+            "Description": "ir",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 2,
+            "Name": "tipo_isenc",
+            "Datatype": "string",
+            "Description": "tipo_isenc",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 3,
+            "Name": "agencia",
+            "Datatype": "string",
+            "Description": "agencia",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 4,
+            "Name": "conta",
+            "Datatype": "string",
+            "Description": "conta",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 5,
+            "Name": "dac",
+            "Datatype": "string",
+            "Description": "dac",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 6,
+            "Name": "dt_ini2",
+            "Datatype": "string",
+            "Description": "dt_ini2",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 7,
+            "Name": "data_fim2",
+            "Datatype": "string",
+            "Description": "data_fim2",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 8,
+            "Name": "gambi2",
+            "Datatype": "string",
+            "Description": "gambi2",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 9,
+            "Name": "descr_isenc2",
+            "Datatype": "string",
+            "Description": "descr_isenc2",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 10,
+            "Name": "funcional2",
+            "Datatype": "string",
+            "Description": "funcional2",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 11,
+            "Name": "zeros",
+            "Datatype": "string",
+            "Description": "zeros",
+            "PrimaryKey": 0,
+            "Pattern": ""
+        },
+        {
+            "id": 12,
+            "Name": "anomesdia",
+            "Datatype": "date",
+            "Description": "anomesdia",
+            "PrimaryKey": 0,
+            "Pattern": "yyyy-MM-dd"
+        }
+    ]
+}
